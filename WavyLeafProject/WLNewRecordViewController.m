@@ -448,7 +448,7 @@
     
     //Verify the area infested digit is 4 or under
     if (areaInfestedTextView.text.length > 4){
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Area infested max digit is 4" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Area infested has a max digit of 4" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [alert show];
         return;
     }
