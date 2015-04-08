@@ -159,7 +159,7 @@
 }
 
 - (IBAction)helpBarButtonDidClick:(id)sender {
-    NSURL *url = [NSURL URLWithString:@"http://skappsrv.towson.edu/wavyleaf/website"];
+    NSURL *url = [NSURL URLWithString:@"http://heron.towson.edu/wavyleaf/home"];
     [[UIApplication sharedApplication] openURL:url];
 }
 @end

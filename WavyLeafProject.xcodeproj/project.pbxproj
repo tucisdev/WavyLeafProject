@@ -553,6 +553,11 @@
 				TargetAttributes = {
 					DD07525216F4D66C00370D1A = {
 						DevelopmentTeam = A38AK53TN9;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -686,8 +691,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sam Houston (A38AK53TN9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sam Houston (A38AK53TN9)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -703,8 +708,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = NO;
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
-				PROVISIONING_PROFILE = "D5AD7A85-888A-4108-8025-9598DD045E5F";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D5AD7A85-888A-4108-8025-9598DD045E5F";
+				PROVISIONING_PROFILE = "44540f6d-3794-44da-be28-808f73f2b992";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "44540f6d-3794-44da-be28-808f73f2b992";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -719,8 +724,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sam Houston (A38AK53TN9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sam Houston (A38AK53TN9)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -730,8 +735,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
-				PROVISIONING_PROFILE = "D5AD7A85-888A-4108-8025-9598DD045E5F";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D5AD7A85-888A-4108-8025-9598DD045E5F";
+				PROVISIONING_PROFILE = "44540f6d-3794-44da-be28-808f73f2b992";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "44540f6d-3794-44da-be28-808f73f2b992";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -740,8 +745,8 @@
 		DD07527216F4D66C00370D1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sam Houston (A38AK53TN9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sam Houston (A38AK53TN9)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -755,7 +760,7 @@
 				INFOPLIST_PREPROCESS = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = WavyLeafProject;
-				PROVISIONING_PROFILE = "9F042081-A0AD-413B-A33E-96DD1DF3564E";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9F042081-A0AD-413B-A33E-96DD1DF3564E";
 				STRIP_INSTALLED_PRODUCT = YES;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -766,8 +771,8 @@
 		DD07527316F4D66C00370D1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sam Houston (A38AK53TN9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sam Houston (A38AK53TN9)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -781,8 +786,8 @@
 				INFOPLIST_PREPROCESS = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = WavyLeafProject;
-				PROVISIONING_PROFILE = "100FF8AD-2CB7-4879-A84E-FDB4C6B0EC80";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "100FF8AD-2CB7-4879-A84E-FDB4C6B0EC80";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6bd4b7a1-953f-42c8-aef7-95ecae4c3f85";
 				STRIP_INSTALLED_PRODUCT = YES;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

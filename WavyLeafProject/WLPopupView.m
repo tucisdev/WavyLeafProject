@@ -24,7 +24,7 @@
         //Create the green line (view) between text
         WLline *myLine = [[WLline alloc] initWithFrame:CGRectMake(20, 197, 217, 2.2)];
         [[self view] addSubview:myLine];
-        myLine = [[WLline alloc] initWithFrame:CGRectMake(20, 255, 217, 2.2)];
+        myLine = [[WLline alloc] initWithFrame:CGRectMake(20, 265, 217, 2.2)];
         [[self view] addSubview:myLine];
         [self set_wavyLabel:wavyLabel];
         
