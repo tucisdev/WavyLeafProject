@@ -10,6 +10,11 @@
 		41A7AD9717FC816900BFD66B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A7AD9617FC816900BFD66B /* GoogleMaps.framework */; };
 		41A7AD9917FC817200BFD66B /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 41A7AD9817FC817200BFD66B /* GoogleMaps.bundle */; };
 		41B7159C17FDE4BB00C824DF /* WLNewSighting.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41B7159B17FDE4BB00C824DF /* WLNewSighting.xib */; };
+		618699851AD62264000E6BEC /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 618699801AD62264000E6BEC /* 114.png */; };
+		618699861AD62264000E6BEC /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 618699811AD62264000E6BEC /* 120.png */; };
+		618699871AD62264000E6BEC /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 618699821AD62264000E6BEC /* 57.png */; };
+		618699881AD62264000E6BEC /* 60.png in Resources */ = {isa = PBXBuildFile; fileRef = 618699831AD62264000E6BEC /* 60.png */; };
+		618699891AD62264000E6BEC /* wavyleaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 618699841AD62264000E6BEC /* wavyleaf.png */; };
 		61C222181A9EBAE80085B45B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61C221901A9EBAE70085B45B /* Info.plist */; };
 		61C222471A9EBAE80085B45B /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C221E71A9EBAE80085B45B /* AbstractActionSheetPicker.m */; };
 		61C222481A9EBAE80085B45B /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C221E91A9EBAE80085B45B /* ActionSheetCustomPicker.m */; };
@@ -94,6 +99,11 @@
 		41A7AD9617FC816900BFD66B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		41A7AD9817FC817200BFD66B /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		41B7159B17FDE4BB00C824DF /* WLNewSighting.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLNewSighting.xib; sourceTree = "<group>"; };
+		618699801AD62264000E6BEC /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		618699811AD62264000E6BEC /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		618699821AD62264000E6BEC /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		618699831AD62264000E6BEC /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
+		618699841AD62264000E6BEC /* wavyleaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wavyleaf.png; sourceTree = "<group>"; };
 		61C2218F1A9EBAE70085B45B /* CoreActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreActionSheetPicker.h; sourceTree = "<group>"; };
 		61C221901A9EBAE70085B45B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61C221911A9EBAE70085B45B /* CoreActionSheetPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CoreActionSheetPicker.xcodeproj; sourceTree = "<group>"; };
@@ -217,6 +227,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6186997F1AD62264000E6BEC /* WavyLeafDrawables */ = {
+			isa = PBXGroup;
+			children = (
+				618699801AD62264000E6BEC /* 114.png */,
+				618699811AD62264000E6BEC /* 120.png */,
+				618699821AD62264000E6BEC /* 57.png */,
+				618699831AD62264000E6BEC /* 60.png */,
+				618699841AD62264000E6BEC /* wavyleaf.png */,
+			);
+			name = WavyLeafDrawables;
+			path = ../WavyLeafDrawables;
+			sourceTree = "<group>";
+		};
 		61C221861A9EBAE70085B45B /* ActionSheetPicker-3.0-master */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,6 +305,7 @@
 		DD03A62917150A4A00B29C78 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6186997F1AD62264000E6BEC /* WavyLeafDrawables */,
 				DDC241F417E4190700A778E9 /* WLAppIcon-120.png */,
 				DDC241F617E4192500A778E9 /* WLAppIcon-152.png */,
 				DD2905AA1737ED190053E689 /* WLAppIcon.png */,
@@ -607,6 +631,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				618699851AD62264000E6BEC /* 114.png in Resources */,
 				DD07526216F4D66C00370D1A /* InfoPlist.strings in Resources */,
 				DD07526A16F4D66C00370D1A /* Default.png in Resources */,
 				41B7159C17FDE4BB00C824DF /* WLNewSighting.xib in Resources */,
@@ -616,11 +641,14 @@
 				DD796E2916F94E4800AB6E97 /* WLTripViewController.xib in Resources */,
 				41A7AD9917FC817200BFD66B /* GoogleMaps.bundle in Resources */,
 				DD77740B1708E9F600C6F37F /* WLEditMapViewController.xib in Resources */,
+				618699891AD62264000E6BEC /* wavyleaf.png in Resources */,
 				DD03A62C17150A5C00B29C78 /* plus.png in Resources */,
 				61C222181A9EBAE80085B45B /* Info.plist in Resources */,
 				DD03A62E17150A7200B29C78 /* plus@2x.png in Resources */,
+				618699871AD62264000E6BEC /* 57.png in Resources */,
 				DD03A63017150FF300B29C78 /* play@2x.png in Resources */,
 				DD03A63217150FFC00B29C78 /* play.png in Resources */,
+				618699881AD62264000E6BEC /* 60.png in Resources */,
 				DDC8131D1730BA0B00DA8A49 /* ic_camera.png in Resources */,
 				DD2905A01735DB100053E689 /* WLNewTripSightViewController.xib in Resources */,
 				DD2905AB1737ED190053E689 /* WLAppIcon.png in Resources */,
@@ -628,6 +656,7 @@
 				DDE06B5B1751207A0085373B /* WLCreateAccountVC.xib in Resources */,
 				DD97E2F917777F7F0072E874 /* WLAccountExtendedVC.xib in Resources */,
 				DDC241F517E4190800A778E9 /* WLAppIcon-120.png in Resources */,
+				618699861AD62264000E6BEC /* 120.png in Resources */,
 				DDC241F717E4192600A778E9 /* WLAppIcon-152.png in Resources */,
 				DDBB735817F3C60300E4AA13 /* WLPopupView.xib in Resources */,
 			);

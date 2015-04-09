@@ -18,10 +18,10 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>WLAppIcon.png</string>
-				<string>WLAppIcon@2x.png</string>
-				<string>WLAppIcon-120.png</string>
-				<string>WLAppIcon-152.png</string>
+				<string>120.png</string>
+				<string>114.png</string>
+				<string>57.png</string>
+				<string>60.png</string>
 			</array>
 		</dict>
 	</dict>
