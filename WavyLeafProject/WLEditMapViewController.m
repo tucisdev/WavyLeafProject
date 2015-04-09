@@ -29,6 +29,10 @@
         //Set as accurate as possible, regardless of time it takes
         [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
         [locationManager setDelegate:self];
+        if ([locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
+            [locationManager requestWhenInUseAuthorization];
+        }
+        [locationManager startUpdatingLocation];
 
     }
     return self;
