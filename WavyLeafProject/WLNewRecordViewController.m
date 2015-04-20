@@ -285,7 +285,7 @@
     [mapViewOnScreen addSubview:mapView_];
     [mapViewOnScreen addSubview:editMapButton];//Add edit button or else it's hidden
     //Change maptype to satellite
-    mapView_.mapType = kGMSTypeSatellite;
+    mapView_.mapType = kGMSTypeHybrid;
     mapView_.settings.scrollGestures = NO;//freeze the scroll
     mapView_.settings.zoomGestures = NO;//freeze the zoom
     //Start searching for user location and show dot

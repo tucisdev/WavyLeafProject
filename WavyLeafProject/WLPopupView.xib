@@ -31,7 +31,7 @@
                     </attributedString>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="WLAppIcon.png" id="11">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wavyleaf.png" id="11">
                     <rect key="frame" x="71" y="5" width="120" height="120"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -120,7 +120,7 @@
         </view>
     </objects>
     <resources>
-        <image name="WLAppIcon.png" width="57" height="57"/>
+        <image name="wavyleaf.png" width="1024" height="1024"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

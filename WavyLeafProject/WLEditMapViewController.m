@@ -50,7 +50,7 @@
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
     
     //Set the map type (only need to do this once)
-    [mapView setMapType:MKMapTypeSatellite];
+    [mapView setMapType:MKMapTypeHybrid];
     
     //Set delegate
     [mapView setDelegate:self];
