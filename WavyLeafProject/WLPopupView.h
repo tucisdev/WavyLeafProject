@@ -12,6 +12,7 @@
 
 {
 
+    __weak IBOutlet UIButton *closeButton;
     __weak IBOutlet UILabel *versionLabel;
     __weak IBOutlet UIView *wavyLabel;
 }

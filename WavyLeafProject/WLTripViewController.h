@@ -22,6 +22,7 @@
     __weak IBOutlet UILabel *alertMeLabel;
 
     __weak IBOutlet UILabel *setTimeLabel;
+    __weak IBOutlet UILabel *userIdLabel;
 
 }
 

@@ -34,6 +34,8 @@
         //[self setTime:[timeStepper value]];
         //[setTimeLabel setText:[NSString stringWithFormat:@"%.0f", [self time]]];
         //Display the default time on the display
+        NSString *udid = [[NSUserDefaults standardUserDefaults] valueForKey:@"user_id"];
+        [userIdLabel setText:udid];
         
         //Set to NO + to create the variable if the user NEVER goes to New Record screen
         [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"userIsOnRecordScreen"];
